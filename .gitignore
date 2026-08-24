@@ -1,0 +1,28 @@
+# ---------------------------------------------------------------------------
+# CRSP licensed data - PRESENT LOCALLY, NEVER COMMITTED
+#
+# These two files are CRSP US Stock & Indexes series (INDNO 1000510 and
+# 1000511). They are licensed and must not be redistributed, so git is told
+# to ignore them. They stay in this folder on disk, so the analysis script
+# runs here unmodified -- they simply never reach GitHub.
+#
+# Do not remove these lines to "fix" a missing-file error on someone else's
+# machine. See the README for how a CRSP licensee obtains them.
+# ---------------------------------------------------------------------------
+Value_weighted.csv
+Equal_weighted.csv
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Output
+Rplots.pdf
+*.png
+!images/*.png
+
+# OS
+Thumbs.db
+.DS_Store
